@@ -1,17 +1,60 @@
-<!DOCTYPE HTML> <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title> Angie's Simple Web Page</title>
-</head>
+<!DOCTYPE HTML> 
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>AC's Simple Web Page</title>
+	</head>
 
-<body>
+	<body>
 
+		<!-- Main Heading -->
+		<h1>AC's Simple Web Page</h1>
 
-</body>
+		<!-- Paragraph 1 -->
+		<p>	Today is gonna be a GREAT day!</p>
+
+		<!-- Horizontal Rule as a Divider -->
+		<hr>
+
+		<!-- Break Line -->
+		<p>Here is an example of a sentence<br>with a line break using the br tag.</p>
+
+		<!-- Lower Level Headings -->
+		<h2>This is a Subheading (H2)</h2>
+		<p>This paragraph comes after an H2 subheading.</p>
+
+		<h3>This is a Subheading (H3)</h3>
+		<p>This paragraph comes after an H3 subheading.</p>
+
+		<!-- Italic and Bold Text -->
+		<p><i>This is italicized text.</i> And here is <b>bold text</b>.</p>
+
+		<!-- Unordered List / Bulleted List -->
+		<h2>My Favorite Animals</h2>
+
+		<ul>
+			<li>Elephants</li>
+			<li>Dogs</li>
+			<li>Cats</li>
+		</ul>
+
+		<!-- Ordered List / Numbered List -->
+		<h2>Top 3 Goals</h2>
+
+		<ol>
+			<li>Learn something new</li>
+			<li>Finish my project</li>
+			<li>Help others...maybe</li>
+		</ol>
+
+		<!-- Comments -->
+		<!-- Note to self: Remember to add a note to self later -->
+		<!-- Note to self: It's later -->
+
+		<!-- Image -->
+		<p>
+			<img src="bristol.jpg" alt="Bristol" width="300" height="200"/>
+		</p>
+
+	</body>
 </html>
-
-
-<p>
-hey
-what is up people
-</p>
