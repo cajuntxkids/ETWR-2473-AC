@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC's Floating Images</title>
+    <style>
+        /* Style for centering the image */
+        img 
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%; 
+            height: auto; 
+        }
+
+        /* Additional styling for floated images */
+        .float-right 
+        {
+            float: right;
+            width: 50%; 
+            height: auto; 
+            margin: 10px; /* Adds space around the image */
+        }
+
+        .float-left 
+        {
+            float: left;
+            width: 50%; 
+            height: auto; 
+            margin: 10px; /* Adds space around the image */
+        }
+        
+        /* clearfix for floated elements so blocks work */
+        .clearfix::after 
+        {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* Center the text in the paragraph */
+        .centered-text 
+        {
+            text-align: center; /* Center the paragraph text */
+        }
+    </style>
+</head>
+
+    <body>
+
+        <h2>AC's Float Images</h2>
+        <p>Be sure to scroll to see all.</p>
+        <p>=============================</p>
+
+        <div class="clearfix">
+            <!-- Floating the image to the right -->
+            <img src="BristolSunbathing.jpg" alt="A dog sitting on a trampoline in the sun" class="float-right">
+            
+            <p>This image is floated to the right. <br><br>NOTE: When you float an image, the text wraps around it.</p>
+        </div>
+
+        <div class="clearfix">
+            <!-- Floating the image to the left -->
+            <img src="BristolSunbathing.jpg" alt="A dog sitting on a trampoline in the sun" class="float-left">
+            <br>
+            <p>This image is floated to the left. Notice how the text flows around the image differently than when it was floated to the right.</p>
+        </div>
+
+        <div>
+            <!-- Centering the image -->
+            <img src="BristolSunbathing.jpg" alt="A dog sitting on a trampoline in the sun">
+           
+            <p class="centered-text">This image is centered on the page. To center an image, we use a different styling approach, as shown above.</p>
+        </div> 
+
+        <div>
+            <p class="centered-text"><a href="withoutclearfix.html" target="_blank">(Without clearfix example. It's all about the way you code.)</a></p>
+        </div>
+    </body>
+</html>

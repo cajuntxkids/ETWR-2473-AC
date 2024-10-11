@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web-Safe Fonts</title>
+        <style>
+
+            /* Combined declaration: abbreviated form */
+            .my_font 
+                {
+                    font: 12pt Verdana;
+                }
+
+            /* Page-global declaration */
+            p 
+                {
+                    font-family: "Times New Roman", Times, serif;
+                }
+
+            /* Custom declaration */
+            .special 
+                {
+                    font-family: "Courier New", Courier, monospace;
+                }
+
+            /* Div style to show it off */
+            .styled_container 
+                {
+                    background-color: lightyellow;
+                    border: 15px solid lightcyan;
+                    padding: 25px;
+                    margin-top: 50px;
+                    font-family: 'Arial', sans-serif;
+                }
+
+        </style>
+    </head>
+    <body>
+        <h1>AC's "Web-Safe" Fonts Showcase</h1>
+            <ul>
+            <!-- Page-global font declaration applied to this paragraph -->
+            <p>This paragraph uses a page-global font declaration, which means it’s using the "Times New Roman", a classic look.🕰️</p>
+
+            <!-- Custom declaration / using class -->
+            <p class="special">This one is for the typewriter lovers—"Courier New" gives it that old-school, techy vibe. ❤️Perfect for coding aesthetics!❤️</p>
+
+            <!-- Combined declaration / using class -->
+            <p class="my_font">Now we're getting fancy with "Verdana" in a 12pt size—perfect for sleek, modern text.🎩</p>
+
+            <!-- On-the-spot declaration / using span -->
+            <p>Check out this <span style="font-family: 'Arial', sans-serif;">pop of Arial font</span> right here in the middle of this sentence. You got this!</p>
+
+
+            <!-- On-the-spot declaration / using div -->
+            <div style="font-family: 'Georgia', serif;">This block uses a div and the "Georgia" font.
+                <br> A div is a way to group things together so you can style them or organize your webpage. 
+                <br> Think of it like putting a bunch of items in a container. Once they’re inside, you can move them around, change how they look, or adjust their size all at once. You can also decorate the container with colors, borders, or spacing.
+            <div class="styled_container">
+                Like this! 
+                <br>
+                <br>
+                <b>Here is a container with a new color, a pretty cool border, some spacing,</b> and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+
+        </div>
+            </ul>
+    </body>
+</html>

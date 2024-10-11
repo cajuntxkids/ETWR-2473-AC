@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Without Clearfix</title>
+    <style>
+        .float-left 
+        {
+            float: left;
+            width: 50%; 
+            margin: 10px;
+        }
+        .float-right 
+        {
+            float: right;
+            width: 50%; 
+            margin: 10px;
+        }
+        .content1 
+        {
+            background-color: lightblue; /* Just for visibility */
+        }
+
+        .content2 
+        {
+            background-color: lightgoldenrodyellow; /* Just for visibility */
+        }
+    </style>
+</head>
+<body>
+
+    <h2>AC Example Without Clearfix</h2>
+    <div class="content1">
+        <img src="BristolSunbathing.jpg" alt="A dog sitting on a trampoline in the sun" class="float-left">
+        <p>This is text should wrap around the floated image on the left. However, because I don't have clearfix, the container won't expand. But, you may not notice it here.</p>
+    </div>
+    <div class="content2">
+        <img src="BristolSunbathing.jpg" alt="A dog sitting on a trampoline in the sun" class="float-right">
+        <p>This text was created for the image on the right. Notice how it does not appear to be in the same container. It may appear below this text.</p>
+    </div>
+
+    <p>This paragraph should be below the images. This may overlap or appear above the floated image, depending on how this layout is presented.</p>
+
+</body>
+</html>

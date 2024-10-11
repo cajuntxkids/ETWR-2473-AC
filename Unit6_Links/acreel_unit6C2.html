@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC's Gradient Color with CSS</title>
+    <style>
+        /* Create a gradient background for a specific block */
+        .gradient_box 
+        {
+            height: 70px; /* You can increase or decrease this value */
+            background: red; /* Fallback for browsers that don't support gradients */
+            background: linear-gradient(to right, green, blue); /* Gradient from green to blue */
+        }
+
+        /* Style for heading 1 */
+        h1 
+        {
+            text-align: center;
+            color: white; /* White text to pop against colorful backgrounds */
+        }
+
+        /* Gradient background for body */
+        body 
+        {
+            background: linear-gradient(to bottom, violet, skyblue); /* Body gradient */
+            height: 100vh; /* Ensures the gradient covers the full screen */
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+    <body>
+        <h1>🌈 AC's Gradient Color with CSS 🌈</h1>
+
+        <!-- Applying gradient to this div -->
+        <div class="gradient_box">
+            <p style="text-align: center; line-height: 70px; color: white;">This block has a gradient from green to blue! 💚💙</p>
+        </div>
+
+        <!-- Additional gradient 1-->
+        <div class="gradient_box" style="background: linear-gradient(to bottom right, orange, yellow); margin-top: 20px;">
+            <p style="text-align: center; line-height: 70px; color: white;">Here's a gradient color, corner to corner, from orange to yellow! 🧡💛</p>
+        </div>
+
+        <!-- Additional gradient 2-->
+        <div class="gradient_box" style="background: linear-gradient(to bottom, pink, purple); margin-top: 20px;">
+            <p style="text-align: center; line-height: 70px; color: white;">This one is top to bottom with gradient colors from pink to purple! 💖💜</p>
+        </div>
+    </body>
+</html>
