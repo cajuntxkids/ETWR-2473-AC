@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 7</title>
+    <style>
+
+        /* Custom indentation and margin */
+        ul.custom-indent 
+        {
+            list-style-type: disc; /*default solid black circle */
+            margin-left: 40px;
+        }
+
+        ol.custom-margin 
+        {
+            margin-left: 60px;
+            padding-left: 20px;
+        }
+
+        /* Custom bullet image */
+        ul.custom-bullets /* Applies styles to whole lists */
+        {
+            list-style: none; /* Removes default bullets */
+            padding-left: 10px;
+        }
+
+        ul.custom-bullets li /* Applies styles only to the individual list items, without affecting bullets */
+        {
+		    background-image: url('splat.jpeg');
+		    background-size: 20px 20px; /* Adjust the bullet size */
+		    background-repeat: no-repeat;
+		    background-position: left center;
+		    padding-left: 20px; /* Adjust padding to provide space between bullet and text */
+		}
+
+        /* Custom Unicode symbol for bullet list */
+        ul.unicode-list 
+        {
+            list-style-type: "\1F43E"; /* paws emoticon */
+        }
+
+        ul.unicode-list li span 
+        {
+            position: relative;
+            left: 10px; /* Indent text for Unicode bullet */
+        }
+
+        ul.square 
+        {
+        	list-style-type: square; /* a solid square */
+        } 
+
+		ol.upper-roman 
+		{
+			list-style-type: upper-roman; /* uppercase roman numeral */
+		} 
+		
+		li.lower-roman 
+		{
+			list-style-type: lower-roman; /* lowercase roman numeral */
+		} 
+
+    </style>
+</head>
+<body>
+	<h1>🌟Unit 7 Assignment🌟</h1>
+
+    <h2>Bulleted List</h2>
+    <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h2>Numbered List</h2>
+    <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+
+    <h2>Start Numbered List at a Different Number</h2>
+    <ol start="5">
+        <li>Item One starting at Five</li>
+        <li>Item Two starting at Six</li>
+        <li>Item Three starting at Seven</li>
+    </ol>
+
+    <h2>Indented Paragraphs within Lists</h2>
+    <ul>
+        <li>First Item
+            <p style="text-indent: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </li>
+        <li>Second Item
+            <p style="text-indent: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+        </li>
+        <li>Third Item (indented more)
+            <p style="text-indent: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+        </li>
+    </ul>
+
+    <h2>Different Indentation and Margins in Lists</h2>
+    <ul class="custom-indent">
+        <li>Indented Item One</li>
+        <li>Indented Item Two</li>
+    </ul>
+
+    <ol class="custom-margin">
+        <li>Item One with custom margin</li>
+        <li>Item Two with custom margin</li>
+    </ol>
+
+    <h2>Sub-bulleted and Sub-numbered Lists</h2>
+    <ul>
+        <li>Main Bullet 1
+            <ul>
+                <li>Sub Bullet 1.1</li>
+                <li>Sub Bullet 1.2</li>
+            </ul>
+        </li>
+        <li>Main Bullet 2
+            <ol>
+                <li>Sub Number 2.1</li>
+                <li>Sub Number 2.2</li>
+            </ol>
+        </li>
+    </ul>
+
+    <h2>Regualar Paragraphs within Lists</h2>
+    <ul>
+        <li>First Paragraph Listing with break
+        	<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </li>
+        <li>Second Paragraph Listing with break
+        	<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </li>
+
+    <h2>Custom Bullet Graphic</h2>
+    <ul class="custom-bullets" style="margin-left: 0.5in">
+        <li><span>Item with custom graphic bullet 1</span></li>
+        <li><span>Item with custom graphic bullet 2</span></li>
+        <li><span>Item with custom graphic bullet 3</span></li>
+    </ul>
+
+    <h2>Custom Bullet with Unicode Emoticon</h2>
+    <ul class="unicode-list" style="margin-left: 0.5in">
+        <li><span>Unicode Bullet Item 1</span></li>
+        <li><span>Unicode Bullet Item 2</span></li>
+        <li><span>Unicode Bullet Item 3</span></li>
+    </ul>
+
+	<h2>Lists with CSS Style Rules</h2>
+	<ul class="square">
+		<li>Item A</li>
+		<li>Item B
+			<ul>
+				<li>Type of Item B - 1</li>
+				<li>Type of Item B - 2</li>
+			</ul>
+		</li>
+		<li>Item C</li>
+	</ul>
+<br>
+	<ol class="upper-roman">
+		<li>Item A</li>
+		<li>Item B
+			<ol>
+				<li class="lower-roman">Type of Item B - 1</li>
+				<li class="lower-roman">Type of Item B - 2</li>
+			</ol>
+		</li>
+		<li>Item C</li>
+			<ol>
+				<li class="lower-roman">Type of Item C - 1</li>
+			</ol>
+	</ol>
+
+</body>
+</html>
