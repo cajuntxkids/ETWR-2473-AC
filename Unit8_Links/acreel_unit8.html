@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unit 8</title>
+        <style>
+           
+            /* Style for no-border container */
+            .no-border-container table 
+            {
+                border: none;
+            }
+
+            .no-border-container th, /* th = table header */
+            .no-border-container td  /* td = table data */
+            {
+                border: none;
+                padding: 0; 
+            }
+
+            /* Style for table within the border-padding container */
+            .border-padding-container table
+            {
+                border: 1px solid black;
+                padding: 10px;
+            }
+
+            .border-padding-container th, 
+            .border-padding-container td 
+            {
+                border: 1px solid black;
+                padding: 10px;
+            }   
+
+            /* Style for the collapsed table (with border-collapse) */
+            table.collapsed 
+            {
+                border-collapse: collapse;
+                margin: 0 auto; 
+            }
+
+            table.collapsed th,
+            table.collapsed td 
+            {
+                border: 1px solid black; 
+                padding: 10px; 
+                text-align: center; 
+            }
+         
+        </style>
+    </head>
+<body>
+
+    <h1>🌟Unit 8 Assignment🌟</h1>
+
+    <div class="no-border-container">
+        <h2>Simplest Table</h2>
+        <table>
+            <tr>
+                    <th>Fruits</th>
+                    <th>Vegetables</th>
+                    <th>Snacks</th>
+                </tr>
+                <tr>
+                    <td>Apple</td>
+                    <td>Eggplant</td>
+                    <td>Chips</td>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td>Broccoli</td>
+                    <td>Popcorn</td>
+                </tr>
+                <tr>
+                    <td>Orange</td>
+                    <td>Spinach</td>
+                    <td>Granola Bar</td>
+                </tr>
+        </table>
+    </div>
+    <p>Is it really the simplest? 🤔</p>
+
+    <div class="border-padding-container">
+        <h2>Table with Border & Padding</h2>
+        <table>
+            <tr>
+                <th>Fruits</th>
+                <th>Vegetables</th>
+                <th>Snacks</th>
+            </tr>
+            <tr>
+                <td>Pineapple</td>
+                <td>Zucchini</td>
+                <td>Trail Mix</td>
+            </tr>
+            <tr>
+                <td>Mango</td>
+                <td>Cauliflower</td>
+                <td>Rice Cakes</td>
+            </tr>
+            <tr>
+                <td>Strawberry</td>
+                <td>Asparagus</td>
+                <td>Beef Jerky</td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="text-align: center;">
+        <h2>Table with Border Collapse and Centering</h2>
+        <table class="collapsed">
+            <tr>
+                <th>Fruits</th>
+                <th>Vegetables</th>
+                <th>Snacks</th>
+            </tr>
+            <tr>
+                <td>Grapes</td>
+                <td>Peppers</td>
+                <td>Cookies</td>
+            </tr>
+            <tr>
+                <td>Kiwi</td>
+                <td>Celery</td>
+                <td>Crackers</td>
+            </tr>
+            <tr>
+                <td>Mango</td>
+                <td>Cucumber</td>
+                <td>Almonds</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
