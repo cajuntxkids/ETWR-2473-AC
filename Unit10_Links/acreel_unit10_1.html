@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 10.1</title>
+    <style>
+        .tooltip 
+        {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+
+        .tooltip .tooltiptext 
+        {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+        }
+
+        /* Tooltip text pops up when you mouse over the tooltip container */
+        .tooltip:hover .tooltiptext
+
+        {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <!-- Unit 10: Tooltips -->
+    <h1>Explore Emile Zola's L'Œuvre</h1>
+    <p>
+        Claude passait devant l'Hôtel de ville, et deux heures du matin sonnaient à l'horloge, quand <span class="tooltip">l'orage<span class="tooltiptext">storm</span></span> éclata. Il s'était oublié à rôder dans les Halles, par cette nuit brûlante de juillet, en artiste <span class="tooltip">flâneur<span class="tooltiptext">wandering</span></span>, amoureux du Paris nocturne: Brusquement, les gouttes tombèrent si larges, si drues, qu'il prit sa course, <span class="tooltip">galopa dégingandé<span class="tooltiptext">arms dangling</span></span>, éperdu, le long du quai de la Grève. Mais, au pont Louis-Philippe, une colère de son <span class="tooltip">essoufflement<span class="tooltiptext">breathlessness</span></span> l'arrêta: il trouvait imbécile cette peur de l'eau; et, dans les ténèbres épaisses, sous le cinglement de l'averse qui noyait les becs de gaz, il traversa lentement le pont, les mains ballantes.
+    </p>
+</body>
+</html>
