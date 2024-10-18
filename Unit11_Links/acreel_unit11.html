@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+
+    .wrapper 
+    {
+      width: 900px;
+      margin: auto;
+    }
+
+    label 
+    {
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+  <title>Tour the Texas Hill Country</title>
+</head>
+<body>
+  <div class="wrapper">
+    <form method="post" action="https://mcmassociates.io/cgi-bin/form_handler.cgi">
+      <input type="hidden" name="my_email" value="my_email_address">
+      
+      <h1>Tour the Texas Hill Country</h1>
+      <p>Please fill out the following information so that we can help you plan your tour! (<span style="color: red">* </span>required)</p>
+      
+      <label for="name">Name:<span style="color: red">*</span></label>
+      <input type="text" name="name" id="name" placeholder="first and last name" required>
+      
+      <label for="email">Email:<span style="color: red">*</span></label>
+      <input type="email" name="email" id="email" placeholder="valid email address" required>
+      
+      <label for="url">Your web address:</label>
+      <input type="url" name="url" id="url" placeholder="your website (optional)">
+      
+      <label for="tour_group">Tour group (8-35 people):</label>
+      <input type="number" name="number" id="tour_group" min="8" max="35" value="8">
+      
+      <label for="start_date">Start date:</label>
+      <input type="date" name="start_date" id="start_date">
+      
+      <label for="end_date">End date:</label>
+      <input type="date" name="end_date" id="end_date"> 
+      
+      <input type="submit" value="Send your information"> &nbsp; &nbsp;   
+      <input type="reset" value="Start over">
+      
+      <p class="sign">Programs and information provided by 
+        <a href="mailto:my_email_address">angie.creel@g.austincc.edu</a>
+      </p>
+    </form>
+  </div>
+</body>
+</html>
