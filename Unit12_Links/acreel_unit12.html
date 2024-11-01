@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 12</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Header styling - outside of the main content border */
+        .header 
+        {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            color: #333;
+            padding: 20px;
+            margin-bottom: 0;
+        }
+
+        /* Styling for the centered text */
+        .center-text 
+        {
+            text-align: center;
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin-top: 20px;
+        }
+        
+        /* Button styling */
+        .styled-button 
+        {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #4CAF50;
+            border: 2px solid #4CAF50;
+            border-radius: 12px;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        /* Button hover effect */
+        .styled-button:hover 
+        {
+            background-color: #fff;
+            color: #4CAF50;
+        }
+        
+        /* Border */
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            border: 10px solid #FF6347; /* Tomato color */
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: #f4f4f9;
+            font-family: Arial, sans-serif;
+        }
+
+         /* Bottom section styling */
+        .bottom-section 
+        {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .form-container 
+        {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Button inside the form */
+        .form-button 
+        {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #FF6347;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .form-button:hover 
+        {
+            background-color: #ff8b73;
+        }
+
+        /* Animated button styling */
+        .animated-button 
+        {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #2196F3; /* Blue */
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            animation: pulse 1.5s infinite;
+            transition: transform 0.3s;
+        }
+
+        .animated-button:hover 
+        {
+            transform: scale(1.1);
+        }
+
+        /* Animation effect */
+        @keyframes pulse 
+        {
+            0% 
+            {
+                background-color: #0D47A1;
+            }
+            50% 
+            {
+                background-color: #1E88E5; /* Lighter blue */
+            }
+            100% 
+            {
+                background-color: #0D47A1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        🌟 Unit 12 Assignment 🌟
+    </div>
+
+    <!-- Button 1 -->
+    <p class="center-text">The Simple Element</p>
+    <div style="text-align: center;">
+        <button class="styled-button" type="button" onclick="alert('Hello world!')">Click Me!</button>
+    </div>
+
+    <br>
+    <hr>
+
+    <!-- Button 2 -->
+    <p class="center-text">A Button for a Hypertext Link</p>
+    
+    <div class="form-container">
+        <!-- Description and form with buttons and a link -->
+        <p>Nonexistent.cgi does not exist so you will go NO WHERE</p>
+        <form method="post" action="nonexistent.cgi">
+            <!-- Input button to submit email data -->
+            <input type="submit" name="email_data" value="Email data" class="form-button" onclick="alert('Sending email data to angie.creel@g.austincc.edu');">
+
+            <!-- Home page button that redirects to angiec_Simple.html -->
+            <button type="button" class="form-button" onclick="window.location.href='/angiec_simple.html';">Home page</button>
+
+            <!-- New button with an onclick alert -->
+            <button type="button" class="form-button" onclick="alert('Congrats! You got yourself an ONCLICK message? Click here!');">Click for Message</button>
+        </form>
+    </div>
+
+    <br>
+    <hr>
+
+    <!-- Button 3 -->
+    <p class="center-text">An Animated Button</p>
+    
+    <div class="form-container">
+        <p>Check out this animated button below:</p>
+        <button class="animated-button" onclick="alert('TADA!')">Animated Button</button>
+    </div>
+
+    <br>
+    <hr>
+
+    <!-- Button(s) 4 -->
+    <p class="center-text">Bootstrap Buttons(s)</p>
+    <div class="form-container">
+        <a href="acreel_unit12_1.html" class="btn btn-primary m-2">Take me to the Bootstrap Buttons</a>
+    </div>
+
+    <!-- Bootstrap JS for interactive elements -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
