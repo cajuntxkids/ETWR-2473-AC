@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 13</title>
+    <style>
+        body 
+        {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        h1 
+        {
+            text-align: center;
+        }
+        .media-container 
+        {
+            margin: 20px 0;
+            text-align: center;
+        }
+        audio, video 
+        {
+            width: 100%; /* Makes audio & video responsive */
+            max-width: 600px; /* Max width for larger screens */
+        }
+    </style>
+</head>
+<body>
+    <h1>Unit 13: Audio & Video</h1>
+
+    <div class="media-container">
+        <h2>MP3 Audio</h2>
+        <audio controls>
+            <source src="https://ia600208.us.archive.org/7/items/adventures_holmes/adventureholmes_02_doyle.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>Source: archive.org --- The Adventures of Sherlock Holmes, The Red-Headed League by Sir Arthur Conan Doyle </p>
+        <p>https://archive.org/details/adventures_holmes</p>
+    </div>
+
+    <div class="media-container">
+        <h2>MP4 Video</h2>
+        <video controls>
+            <source src="https://ia601708.us.archive.org/0/items/poirot-series/01.01%20The%20Adventure%20Of%20The%20Clapham%20Cook.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Source: archive.org --- Poirot Series, The Adventure Of The Clapham Cook</p>
+        <p>https://archive.org/details/poirot-series</p>
+    </div>
+</body>
+</html>
