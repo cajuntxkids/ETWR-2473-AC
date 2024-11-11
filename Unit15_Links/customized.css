@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+.well {
+    background: #E8D5C5;
+} 
+
+	 
+aside {
+	padding-top: 60px;
+}
+ 
+
+body {
+padding-top: 70px;
+padding-bottom: 30px;
+}
+
+article {
+  margin-left:20px;
+}
+
+
+h2 {
+	font-size: 160%;
+	color: #1A598C;
+
+	margin-left:-20px;
+	border-bottom: 1px solid #1A598C;
+}
+
+h3 {
+	font-size: 130%;
+	color: #1A598C;
+	margin-left:-10px;
+}	
+
+	
+pre {
+	background-color: #E8E8E8;
+}
+	
+
+	
+	
+
+	
+article.assignment {
+
+	margin:        5px;
+}
+
+table.element_table td, th {
+  border:           thin dotted black;
+  padding:          5px;
+}
+
+.image_div
+{
+	float:right;
+	padding: 5px;
+}

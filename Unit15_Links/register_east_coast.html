@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register - East Coast Program</title>
+	
+	<link href="bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="customized.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<a class="navbar-brand" rel="home" href="#">Basketball Legends League</a>
+
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="acreel_unit15.html">Home</a></li>
+				<li><a href="team_tours.html">Team Tours</a></li>
+
+				<li class="active"><a href="register_east_coast.html">Register East Coast</a></li>
+				
+				<li><a href="join.html">Join the League</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="project1.html">Project 1: Training</a></li>
+						<li><a href="project2.html">Project 2: Tournaments</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Fav Athletes<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="lebron.html">LeBron James</a></li>
+							<li><a href="curry.html">Stephen Curry</a></li>
+							<li><a href="durant.html">Kevin Durant</a></li>
+							<li><a href="harden.html">James Harden</a></li>
+						</ul>
+				</li>
+
+				<li><a href="open_forum.html">Open Forum</a></li>
+				<li><a href="resources.html">Resources</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container">
+	<h1>Register for the East Coast Program</h1>
+
+	<p>
+		Sign up below to join the East Coast Basketball Program. This program offers exclusive training, workshops, and events tailored for players on the East Coast.
+	</p>
+
+	<form action="submit_registration.html" method="post" class="form-horizontal">
+		<div class="form-group">
+			<label for="firstName" class="col-sm-2 control-label">First Name</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="firstName" name="firstName" required>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="lastName" class="col-sm-2 control-label">Last Name</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="lastName" name="lastName" required>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="email" class="col-sm-2 control-label">Email</label>
+			<div class="col-sm-10">
+				<input type="email" class="form-control" id="email" name="email" required>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="phone" class="col-sm-2 control-label">Phone</label>
+			<div class="col-sm-10">
+				<input type="tel" class="form-control" id="phone" name="phone">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="experience" class="col-sm-2 control-label">Experience Level</label>
+			<div class="col-sm-10">
+				<select class="form-control" id="experience" name="experience">
+					<option value="beginner">Beginner</option>
+					<option value="intermediate">Intermediate</option>
+					<option value="advanced">Advanced</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="ageGroup" class="col-sm-2 control-label">Age Group:</label>
+			<div class="col-sm-10">
+			<select class="form-control" id="ageGroup" name="ageGroup" required>
+				<option value="under-18">Under 18</option>
+				<option value="18-25">18-25</option>
+				<option value="26-35">26-35</option>
+				<option value="36-45">36-45</option>
+				<option value="46-above">46 and Above</option>
+			</select>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+				<button type="submit" class="btn btn-primary">Submit Registration</button>
+			</div>
+		</div>
+	</form>
+
+	<p class="sign">For additional questions, contact <a href="mailto:angie.creel@g.austincc.edu">admin@sportsleague.com</a>.</p>
+</div>
+
+<script src="jquery.js"></script>
+<script src="bootstrap.js"></script>
+
+</body>
+</html>
