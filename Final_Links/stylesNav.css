@@ -1,0 +1,78 @@
+/* Navigation Styling */
+nav {
+    background-color: #333;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif; /* Custom font */
+}
+
+/* Unordered List Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+/* List Item Styling */
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* Link Styling */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+    font-family: 'Roboto', sans-serif; /* Ensure link text uses the same font */
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+    color: #ff0000; /* Change color to red when hovered */
+}
+
+/* Dropdown Styling */
+nav .dropdown {
+    position: relative;
+    z-index: 10; /* Ensure the dropdown menu appears on top of other content */
+}
+
+/* Dropdown Content (Hidden by Default) */
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Dropdown Links Styling */
+nav .dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: block;
+    font-size: 1em;
+}
+
+/* Hover Effect on Dropdown Links */
+nav .dropdown-content a:hover {
+    background-color: #444;
+    color: #ff0000; /* Change color when hovered */
+}
+
+/* Show the dropdown content when hovering over the dropdown */
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Emoji Styling (if used in navigation links) */
+nav ul li a span {
+    font-size: 1.5em; /* Increase the size of emojis */
+    margin-right: 8px; /* Add space between emoji and text */
+}

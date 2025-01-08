@@ -1,0 +1,169 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #1e90ff; /* blue */
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 5px solid #606060; /* gray */
+    font-family: 'Fredoka One', sans-serif;
+    text-shadow: 
+        2px 2px 5px rgba(0, 0, 0, 0.7),  /* main shadow */
+        1px 1px 0 #000,                  /* black outline */
+        -1px -1px 0 #000,
+        1px -1px 0 #000, 
+        -1px 1px 0 #000; /* additional shadows for outline effect */
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 3px;   
+}
+
+header p {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-top: 0.5rem;
+}
+
+
+/* Container to center the grid and control overall width */
+.container {
+    max-width: 1500px; /* Set maximum width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 0 1rem; /* Add a little padding for smaller screens */
+}
+
+/* Hero List Section Styling */
+.hero-list-section {
+    padding: 2rem;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+.hero-list-section h2 {
+    font-size: 2.5rem;
+    color: #1e90ff; /* blue */
+    font-family: 'Fredoka One', sans-serif;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 30px;
+    
+    text-shadow: 
+        2px 2px 5px rgba(0, 0, 0, 0.7),  /* main shadow */
+        1px 1px 0 #000,                  /* black outline */
+        -1px -1px 0 #000,
+        1px -1px 0 #000, 
+        -1px 1px 0 #000; /* additional shadows for outline effect */
+}
+
+/* Hero Grid Layout */
+.hero-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+    justify-items: center;
+}
+
+/* Individual Hero Cards */
+.hero-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 5px solid #606060; /* blue */
+    border-radius: 15px;
+    width: 90%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.hero-card:hover {
+    transform: scale(1.25);
+    border-color: #1e90ff; /* turn blue */
+}
+
+.hero-card h3 {
+    font-size: 1.6rem;
+    color: #1e90ff; /* blue */
+    margin-top: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Fredoka One', sans-serif;
+}
+
+/* Hero Card Heading 4 */
+.hero-card h4 {
+    font-size: 1.2rem;
+    color: #606060; /* gray to match the theme */
+    margin-top: 0.5rem;
+    text-align: center;
+    font-weight: normal; /* Lighter weight for distinction from h3 */
+    font-family: 'Roboto', sans-serif;
+    font-style: italic; /* Italics for a more subtle look */
+}
+
+.hero-card p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Placeholder for Hero Images */
+.hero-image {
+    background-color: #e0e0e0;
+    width: 100%;
+    height: 200px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.hero-image img {
+    width: 100%; /* Adjusts image to fit the container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Makes edges rounded */
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 800px) {
+    .hero-grid {
+        grid-template-columns: repeat(2, 1fr); /* Switch to 2 columns on smaller screens */
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Fredoka One', sans-serif;
+}

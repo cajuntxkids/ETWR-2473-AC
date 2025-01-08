@@ -1,0 +1,185 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling when navigating */
+}
+
+
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8; /* light cyan */
+    color: #333; /* black */
+    text-align: center;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the page takes up at least the full height of the viewport */
+    
+
+}
+
+/* Main Section (Flexbox pushes footer to the bottom) */
+main {
+    flex: 1; /* This ensures the main section takes up the remaining space and pushes the footer down */
+}
+
+/* Header Styling */
+header {
+    background-color: #b39ddb; /* purple */
+    border-color: #7e57c2; /* purple-er */
+    color: #fff; /* white */
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 5px solid #7e57c2; /* purple-er */
+    font-family: 'Fredoka One', sans-serif;
+    text-shadow: 
+        2px 2px 5px rgba(0, 0, 0, 0.7),  /* main shadow */
+        1px 1px 0 #000,                  /* black outline */
+        -1px -1px 0 #000,
+        1px -1px 0 #000, 
+        -1px 1px 0 #000; /* additional shadows for outline effect */
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+header p {
+    font-size: 1.3rem;
+}
+
+/* Main layout */
+.container {
+    display: flex;
+    justify-content: space-between; /* Positions the two sections side by side */
+    gap: 20px; /* Adds space between the sections */
+    flex-wrap: wrap; /* Allows sections to stack on smaller screens */
+    margin-bottom: 20px;
+    max-width: 1800px; /* Optional: sets a max width to prevent the layout from becoming too wide */
+    margin: 0 auto; /* Centers the layout horizontally */
+}
+
+/* Styling for left side (Superpower list) */
+.left {
+    flex: 1;
+    max-width: 60%; /* Limits the width of the characters section */
+    background-color: #f9f9f9; 
+    border-radius: 5px;
+    border: 3px solid #ddd; /* gray */
+    padding: 1rem;
+    margin-top: 20px;
+    text-align: center;
+    height: 70vh; /* Limits the height of the section */
+    overflow-y: scroll; /* Enables vertical scrolling if content overflows */
+}
+
+.left h2 {
+    font-size: 3rem;
+    color: #7e57c2; /* purple-er */
+}
+
+.right h2 {
+    font-size: 3rem;
+    color: #7e57c2; /* purple-er */
+}
+
+
+
+/* Styling for right side (Characters list) */
+.right {
+    flex: 1;
+    max-width: 40%; /* Limits the width of the superpowers section */
+    background-color: #b39ddb; /* Light purple background */
+    border-radius: 5px;
+    border: 3px solid #7e57c2; /* purple-er */
+    padding: 1rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.characters-list {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #333;
+}
+
+
+
+
+/* Superpowers List Styling */
+.powers-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns to fill the width */
+    grid-template-rows: repeat(10, auto);  /* 10 rows of equal height */
+    gap: 10px; /* Add some space between the items */
+    padding: 20px;
+    list-style: none;
+}
+
+.powers-list li {
+    cursor: pointer;
+    padding: 15px;
+    border: 1px solid #7e57c2; /* purple-er */
+    border-radius: 5px;
+    background-color: #fff; /* white */
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.powers-list li:hover {
+    background-color: #ebe3f4; /* light of purple */
+    color: #7e57c2; /* purple-er */
+}
+
+#selected-power {
+    font-size: 3rem;
+    color: #fff; /* white */
+}
+
+#characters {
+    font-size: 2rem; /* Adjust as needed */
+    color: #fff; /* white text */
+    margin-top: 1rem;
+    padding-left: 0; /* Remove default list indentation */
+}
+
+#characters li {
+    margin-bottom: 0.5rem; /* Space between list items */
+    list-style-type: none; /* Remove bullet points */
+}
+
+
+
+
+
+
+
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* black */
+    color: #fff; /* white */
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Fredoka One', sans-serif;
+    width: 100%;
+    margin-top: auto; /* This pushes the footer to the bottom */
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 800px) {
+    .container {
+        padding: 0 2rem; /* Add more padding for smaller screens */
+    }
+}

@@ -1,0 +1,118 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body 
+{ 
+    height: 100%;
+    margin: 0; 
+}
+
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa; /* cyan */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffeb3b; /* yellow */
+    border-color: #ffd600; /* pure yellow */
+    color: #fff; /* white */
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 5px solid #ffd600; /* pure yellow */
+    font-family: 'Fredoka One', sans-serif;
+    text-shadow: 
+        2px 2px 5px rgba(0, 0, 0, 0.7),  /* main shadow */
+        1px 1px 0 #000,                  /* black outline */
+        -1px -1px 0 #000,
+        1px -1px 0 #000, 
+        -1px 1px 0 #000; /* additional shadows for outline effect */
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+header p {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-top: 0.5rem;
+}
+
+/* Container to center the grid and control overall width */
+.container {
+    max-width: 1500px; /* Set maximum width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 0 1rem; /* Add a little padding for smaller screens */
+}
+
+/* Button Styling */
+button {
+    background-color: #00FF80; /* lime green */
+    color: #fff; /* white */
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff4081; /* pink */
+}
+
+/* Power Display Section */
+.power-display {
+    margin-top: 2rem;
+    font-size:2.5rem;
+    color: #ff4081; /* pink */
+    font-weight: bold;
+}
+
+/* Style specifically for the superpower text */
+#superPowerText {
+    font-size: 5rem; /* Larger font size for the superpower */
+    color: #ff4081; /* pink */
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* black */
+    color: #fff; /* white */
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Fredoka One', sans-serif;
+    margin-top: auto; /* This pushes the footer to the bottom */
+    position: relative; /* Keeps the footer at the bottom of the page */
+    width: 100%;
+}
+
+
+/* Responsive layout for smaller screens */
+@media (max-width: 800px) {
+    .container {
+        padding: 0 2rem; /* Add more padding for smaller screens */
+    }
+}
