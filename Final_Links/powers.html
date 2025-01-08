@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superpowers List</title>
+    <link rel="stylesheet" href="stylesNav.css">
+    <link rel="stylesheet" href="stylesPowers.css">
+    <link rel="stylesheet" href="stylesTop.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>💥 Superpowers List 💥</h1>
+        <p>Discover the most amazing superpowers categorized into elements!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li class="dropdown">
+                <a href="hero_list.html">🦸 Hero List</a>
+                <!-- Dropdown Menu for Heroes -->
+                    <ul class="dropdown-content">
+                        <li><a href="hero_list.html#marvel-heroes">Marvel Heroes</a></li>
+                        <li><a href="hero_list.html#dc-heroes">DC Heroes</a></li>
+                        <li><a href="hero_list.html#other-superheroes">Other SuperHeroes</a></li>
+                    </ul>
+            </li>
+            <li class="dropdown">
+                <a href="villain_list.html">🦹 Villain List</a>
+                <!-- Dropdown Menu for Villains -->
+                    <ul class="dropdown-content">
+                        <li><a href="villain_list.html#marvel-villains">Marvel Villains</a></li>
+                        <li><a href="villain_list.html#dc-villains">DC Villains</a></li>
+                        <li><a href="villain_list.html#other-villains">Other Villains</a></li>
+                    </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="antihero_list.html">👤 Antihero List</a>
+                <!-- Dropdown Menu for Antiheroes -->
+                    <ul class="dropdown-content">
+                        <li><a href="antihero_list.html#marvel-antiheroes">Marvel Antiheroes</a></li>
+                        <li><a href="antihero_list.html#guardians-of-galaxy">Guardians of the Galaxy</a></li>
+                        <li><a href="antihero_list.html#shield-members">SHIELD Members</a></li>
+                        <li><a href="antihero_list.html#dc-antiheroes">DC Antiheroes</a></li>
+                        <li><a href="antihero_list.html#suicide-squad">Suicide Squad</a></li>
+                    </ul>
+            </li>
+            <li><a href="powers.html">💥 Superpowers Directory</a></li>
+        </ul>
+    </nav>
+
+        <!-- Left Navigation Bar -->
+        <div class="navbar">
+            <h2 class="navbar-title">Superpowers</h2> <!-- Sidebar Title -->
+            <a href="#PhysicalPowers">Physical Powers</a>
+            <a href="#MentalPowers">Mental Powers</a>
+            <a href="#EnergyPowers">Energy-Based Powers</a>
+            <a href="#ElementalPowers">Elemental Powers</a>
+            <a href="#TimePowers">Time-Related Powers</a>
+            <a href="#DimensionalPowers">Dimensional and Reality Powers</a>
+            <a href="#AnimalPowers">Animal and Nature Powers</a>
+            <a href="#MiscellaneousPowers">Miscellaneous Powers</a>
+        </div>
+
+
+    <section class="powers">
+
+        <h2>Click on a Superpower to learn it's ability.</h2>
+
+        <!-- Physical Powers -->
+        <div class="category" id="PhysicalPowers">
+            <h3 class="category-title">Physical Powers</h3>
+            <ul class="power-list">
+
+                <li class="power-item" onclick="showPowerInfo('Atlantean Physiology', 'The unique biological traits of an Atlantean, including the ability to survive underwater at great depths, enhanced senses, and longevity, giving Aquaman greater resilience and adaptability in aquatic environments.')">Atlantean Physiology</li>
+
+                <li class="power-item" onclick="showPowerInfo('Boomerang Mastery', 'The ability to expertly throw boomerangs with pinpoint accuracy, allowing them to return to the thrower after striking targets or objects, even if thrown at high speeds or complex angles.')">Boomerang Mastery</li>
+                <li class="power-item" onclick="showPowerInfo('Bracelets of Submission', 'The ability to deflect bullets, projectiles, and energy blasts using indestructible arm bracers.')">Bracelets of Submission</li>
+
+                <li class="power-item" onclick="showPowerInfo('Cold Immunity', 'The ability to withstand extreme cold and frost without adverse effects, allowing uninterrupted operation in sub-zero conditions.')">Cold Immunity</li>
+                <li class="power-item" onclick="showPowerInfo('Cybernetic Enhancements', 'The ability to integrate advanced technology into one’s body, granting one enhanced physical capabilities, such as superior strength and durability, and improved resistance to injury.')">Cybernetic Enhancements</li>
+                <li class="power-item" onclick="showPowerInfo('Density Manipulation', 'The ability to change the density of one\'s body or other objects.')">Density Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Enhanced Agility', 'The ability to perform acrobatic feats and maneuver with superhuman speed, flexibility, and balance, allowing one to evade attacks and outmaneuver opponents in battle.')">Enhanced Agility</li>
+                <li class="power-item" onclick="showPowerInfo('Enhanced Durability', 'The ability to withstand physical damage, including blunt force trauma, without significant injury, but might also apply to other forms of damage, such as extreme temperatures or energy-based attacks.')">Enhanced Durability</li>
+                <li class="power-item" onclick="showPowerInfo('Enhanced Healing', 'The ability to recover from injuries at a rapid rate, allowing for near-instant healing of wounds and injuries that would otherwise be fatal to ordinary humans.')">Enhanced Healing</li>
+                <li class="power-item" onclick="showPowerInfo('Enhanced Jumping Ability', 'The ability to leap great distances despite one’s large size, aiding them in combat and mobility.')">Enhanced Jumping Ability</li>
+
+                <li class="power-item" onclick="showPowerInfo('Enhanced Magical Resistance', 'The ability to withstand certain magical attacks or resist spells due to one’s powerful magical constitution.')">Enhanced Magical Resistance</li>
+
+                <li class="power-item" onclick="showPowerInfo('Enhanced Pain Tolerance', 'The ability to endure extreme levels of pain without losing functionality or effectiveness, allowing the user to keep fighting or completing tasks despite injuries.')">Enhanced Pain Tolerance</li>
+                <li class="power-item" onclick="showPowerInfo('Enhanced Physical Strength', 'The ability to perform feats of physical strength, such as overpowering enemies and lifting large objects.')">Enhanced Physical Strength</li>
+                <li class="power-item" onclick="showPowerInfo('Enhanced Reflexes', 'The ability to react quickly and decisively in combat.')">Enhanced Reflexes</li>
+                <li class="power-item" onclick="showPowerInfo('Enhanced Speed', 'The ability to move at incredible speeds, enabling rapid attacks, dodging, and traversing great distances quickly.')">Enhanced Speed</li>
+                <li class="power-item" onclick="showPowerInfo('Enhanced Stamina', 'The ability to perform intense physical activities for extended periods without fatigue.')">Enhanced Stamina</li>
+                <li class="power-item" onclick="showPowerInfo('Enhanced Stealth', 'The ability to move undetected, blending seamlessly into shadows and avoiding detection from enemies or surveillance systems.')">Enhanced Stealth</li>
+                <li class="power-item" onclick="showPowerInfo('Enhanced Strength', 'The ability to lift heavy objects, overpower opponents, and deliver devastating physical attacks due to physical enhancement from mystical herbs.')">Enhanced Strength</li>
+
+                <li class="power-item" onclick="showPowerInfo('Enhanced Vision', 'The ability to see across vast distances, in low light, and detect wavelengths beyond the normal visual spectrum.')">Enhanced Vision</li>
+                <li class="power-item" onclick="showPowerInfo('Evasion', 'The ability to escape or avoid capture through quick thinking, agility, or strategic planning.')">Evasion</li>
+                <li class="power-item" onclick="showPowerInfo('Expert Acrobat', 'The ability to perform high-risk maneuvers such as flips, leaps, and tightrope walking with remarkable precision and control, enabling evasive movement or creative attacks.')">Expert Acrobat</li>
+                <li class="power-item" onclick="showPowerInfo('Expert Hand-to-Hand Combatant', 'The ability to skillfully fight in close combat, often using one’s strength, agility, and weapons to overwhelm foes.')">Expert Hand-to-Hand Combatant</li>
+                <li class="power-item" onclick="showPowerInfo('Expert Marksmanship', 'The ability to skillfully use firearms and other weapons, demonstrating incredible accuracy and efficiency in combat situations.')">Expert Marksmanship</li>
+                <li class="power-item" onclick="showPowerInfo('Expert Thrown Weaponry', 'The ability to wield and throw various weapons, not just boomerangs, with high precision and effectiveness in combat, often using quick tactics to outmaneuver opponents.')">Expert Thrown Weaponry</li>
+                
+                <li class="power-item" onclick="showPowerInfo('Fire Immunity', 'The ability to withstand and be immune to harm from fire and heat, including his own pyrotechnic abilities.')">Fire Immunity</li>
+
+                <li class="power-item" onclick="showPowerInfo('Flight', 'The ability to fly or defy gravity.')">Flight</li>
+                <li class="power-item" onclick="showPowerInfo('Force Healing', 'The ability to heal one’s own wounds to some extent, using the Force, though limited by one’s injuries and dark side corruption.')">Force Healing</li>
+                <li class="power-item" onclick="showPowerInfo('Force Jump', 'The ability to leap great distances or heights by channeling the Force into physical movements.')">Force Jump</li>
+
+                <li class="power-item" onclick="showPowerInfo('Healing Factor', 'The power to recover quickly from injuries or illnesses.')">Healing Factor</li>
+                <li class="power-item" onclick="showPowerInfo('Ice Constructs', 'The ability to generate structures, barriers, or weapons made entirely of ice, providing both offensive and defensive capabilities.')">Ice Constructs</li>
+                <li class="power-item" onclick="showPowerInfo('Invulnerability', 'Immunity to harm or damage.')">Invulnerability</li>
+                <li class="power-item" onclick="showPowerInfo('Lightsaber Combat', 'The ability to wield a lightsaber with extraordinary skill, sometimes enhanced by one’s connection to the Force.')">Lightsaber Combat</li>
+                <li class="power-item" onclick="showPowerInfo('Lock-Picking Expertise', 'The ability to bypass locks and security measures with precision, enabling access to restricted areas or valuables.')">Lock-Picking Expertise</li>
+                <li class="power-item" onclick="showPowerInfo('Martial Arts Mastery', 'The ability to be highly skilled in hand-to-hand combat and various forms of martial arts, using a combination of speed, strength, and technique to overpower opponents.')">Martial Arts Mastery</li>
+                <li class="power-item" onclick="showPowerInfo('Master of Weaponry', 'The ability to expertly wield a variety of weapons, including blades and guns, often customizing them for maximum efficiency, and using them with exceptional skill in battle.')">Master of Weaponry</li>
+                <li class="power-item" onclick="showPowerInfo('Peak Human Agility', 'The ability to move with exceptional speed, coordination, and flexibility, enabling rapid and precise movements, such as performing acrobatic feats or dodging attacks with remarkable ease.')">Peak Human Agility</li>
+                <li class="power-item" onclick="showPowerInfo('Peak Human Endurance', 'The ability to endure physical exertion or resist fatigue at the highest level of human capacity, allowing an individual to perform strenuous physical activities for prolonged periods without tiring, surpassing normal human limitations.')">Peak Human Endurance</li>
+                <li class="power-item" onclick="showPowerInfo('Peak Human Reflexes', 'The ability to react quickly and efficiently to threats, including dodging attacks and countering with precision timing.')">Peak Human Reflexes</li>
+                <li class="power-item" onclick="showPowerInfo('Peak Human Speed', 'The ability to run, move, or react at the top limits of human potential speed, enabling the individual to cover ground or react faster than the average human, but without reaching superhuman levels.')">Peak Human Speed</li>
+                <li class="power-item" onclick="showPowerInfo('Peak Human Stamina', 'The ability to endure physical exertion at extreme levels without tiring quickly, allowing the individual to maintain high performance over extended periods of time, whether in combat, running, or other intense activities.')">Peak Human Stamina</li>
+                <li class="power-item" onclick="showPowerInfo('Peak Human Strength', 'The ability to exert force at the highest levels of human potential, allowing the individual to lift, carry, and apply force beyond the typical capacity of an average person but within human limits.')">Peak Human Strength</li>
+                <li class="power-item" onclick="showPowerInfo('Phasing', 'The ability to vibrate molecules at such a speed that the body can pass through solid objects, effectively allowing the Flash to phase through walls or barriers.')">Phasing</li>
+
+                <li class="power-item" onclick="showPowerInfo('Poison Resistance', 'The ability to resist or recover from toxins, poisons, and chemicals.')">Poison Resistance</li>
+                <li class="power-item" onclick="showPowerInfo('Power Mimicry', 'The ability to copy or mimic the abilities of others.')">Power Mimicry</li>
+                <li class="power-item" onclick="showPowerInfo('Reptilian Physiology', 'The ability to possess a thick, scaly hide that provides natural protection from physical damage and gives one their monstrous, crocodilian appearance.')">Reptilian Physiology</li>            
+                <li class="power-item" onclick="showPowerInfo('Regeneration', 'The ability to rapidly heal from injuries and restore damaged or lost body parts.')">Regeneration</li>
+                <li class="power-item" onclick="showPowerInfo('Retractable Claws', 'The ability to extend razor-sharp, indestructible claws from one’s hands, which are effective in combat and can cut through nearly any material.')">Retractable Claws</li>
+                <li class="power-item" onclick="showPowerInfo('Shape-Shifting', 'The ability to transform one’s body into various forms.')">Shape-Shifting</li>
+                <li class="power-item" onclick="showPowerInfo('Shell Spin', 'The ability to tuck into one’s spiked shell and spin at high speed, using it as a weapon to attack enemies or evade threats.')">Shell-Spin</li>
+                <li class="power-item" onclick="showPowerInfo('Size Manipulation', 'Ability to grow or shrink in size.')">Size Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Speed', 'Ability to move, think, and react at incredible speeds.')">Speed</li>
+                <li class="power-item" onclick="showPowerInfo('Stealth', 'The ability to operate and move undetected, concealing actions and avoiding observation by others.')">Stealth</li>
+                <li class="power-item" onclick="showPowerInfo('Super Hearing', 'The ability to detect sounds across vast distances and frequencies, including whispers or cries for help.')">Super Hearing</li>
+                <li class="power-item" onclick="showPowerInfo('Super Strength', 'The ability to exert immense physical force, enabling the lifting and moving of objects of colossal weight with ease.')">Super Strength</li>
+                <li class="power-item" onclick="showPowerInfo('Super Speed', 'The ability to move at extraordinary speeds, allowing for rapid travel, dodging attacks, and even running on water.')">Super Speed</li>
+                <li class="power-item" onclick="showPowerInfo('Superhuman Agility', 'The ability to move with exceptional dexterity, balance, and coordination, enabling acrobatic feats and rapid reflexive responses.')">Superhuman Agility</li>
+                <li class="power-item" onclick="showPowerInfo('Superhuman Durability', 'The ability to withstand physical damage beyond what a normal human could tolerate, often involving greater resistance to injuries, toxins, and environmental conditions hazards.')">Superhuman Durability</li>
+                <li class="power-item" onclick="showPowerInfo('Superhuman Marksmanship', 'The ability to aim and shoot with near-perfect accuracy, hitting even the smallest targets under any condition.')">Superhuman Marksmanship</li>          
+                <li class="power-item" onclick="showPowerInfo('Superhuman Reflexes', 'The ability to react faster than a normal human, improving reaction time.')">Superhuman Reflexes</li>
+                <li class="power-item" onclick="showPowerInfo('Superhuman Speed', 'The ability to move and react at incredible speeds, making one a formidable opponent in hand-to-hand combat and pursuit.')">Superhuman Speed</li>
+                <li class="power-item" onclick="showPowerInfo('Superhuman Stamina', 'The ability to endure prolonged physical activity without fatigue, granting sustained performance in combat or high-stress situations.')">Superhuman Stamina</li>
+                <li class="power-item" onclick="showPowerInfo('Superhuman Strength', 'The ability to exert immense physical force, capable of overpowering the strongest beings in the universe.')">Superhuman Strength</li>
+                <li class="power-item" onclick="showPowerInfo('Toxin Immunity', 'The ability to resist all toxins, poisons, and pathogens, making one immune to chemical and biological attacks.')">Toxin Immunity</li>
+                <li class="power-item" onclick="showPowerInfo('Toxin Resistance', 'The ability to resist or recover from toxins, poisons, and chemicals.')">Toxin Resistance</li>
+                <li class="power-item" onclick="showPowerInfo('Underwater Breathing', 'The ability to breathe underwater, allowing Aquaman to survive and function in aquatic environments without the need for air.')">Underwater Breathing</li>
+                <li class="power-item" onclick="showPowerInfo('Weapon Proficiency', 'The ability to expertly use a wide range of weapons, including swords, guns, knives, and more, often using them in combination to maximize damage and effectiveness in combat.')">Weapon Proficiency</li>
+                <li class="power-item" onclick="showPowerInfo('Wall-Crawling', 'The ability to cling to and scale vertical surfaces or ceilings, utilizing a unique molecular adhesion mechanism.')">Wall-Crawling</li>
+            </ul>
+        </div>
+
+        <!-- Mental Powers -->
+        <div class="category" id="MentalPowers">
+            <h3 class="category-title">Mental Powers</h3>
+            <ul class="power-list">
+                <li class="power-item" onclick="showPowerInfo('12th-Level Intellect', 'The ability to possess intelligence far beyond human capability, enabling mastery of advanced sciences, strategy, and universal knowledge.')">12th-Level Intellect</li>
+                <li class="power-item" onclick="showPowerInfo('Absorption of Knowledge', 'The ability to collect, store, and analyze vast amounts of information from across the universe.')">Absorption of Knowledge</li>
+                <li class="power-item" onclick="showPowerInfo('Advanced Occult Knowledge', 'The ability to understand and utilize vast amounts of knowledge about the supernatural, mystical artifacts, and ancient rituals.')">Advanced Occult Knowledge</li>
+                <li class="power-item" onclick="showPowerInfo('Charging Objects with Kinetic Energy', 'The ability to infuse inanimate objects with kinetic energy, causing them to gain explosive potential upon impact.')">Charging Objects with Kinetic Energy</li>
+                <li class="power-item" onclick="showPowerInfo('Charismatic Manipulation', 'The ability to inspire loyalty or instill fear, persuading others to follow or obey.')">Charismatic Manipulation</li>
+
+                <li class="power-item" onclick="showPowerInfo('Clairvoyance', 'The ability to perceive events, people, or objects beyond normal sensory range.')">Clairvoyance</li>
+
+                <li class="power-item" onclick="showPowerInfo('Code Vision', 'The ability to see the underlying digital structure of the environment, revealing hidden patterns and truths.')">Code Vision</li>
+                <li class="power-item" onclick="showPowerInfo('Corruption and Mind Control', 'The ability to corrupt and control minds, bending others to one’s will and turning them into servants.')">Corruption and Mind Control</li>
+
+                <li class="power-item" onclick="showPowerInfo('Eidetic Memory', 'The ability to recall images, sounds, and objects in vivid detail after brief exposure.')">Eidetic Memory</li>
+                <li class="power-item" onclick="showPowerInfo('Empathy', 'The ability to sense and manipulate emotions.')">Empathy</li>
+                <li class="power-item" onclick="showPowerInfo('Enhanced Perception', 'The ability to notice subtle changes in the environment and detect hidden threats with acute awareness.')">Enhanced Perception</li>
+                <li class="power-item" onclick="showPowerInfo('Enhanced Observation', 'The ability to notice subtle details and changes in the environment that others might overlook.')">Enhanced Observation</li>
+                <li class="power-item" onclick="showPowerInfo('Engineering Expertise', 'The ability to design and create advanced technology, vehicles, and gadgets for tactical and combat use.')">Engineering Expertise</li>
+                <li class="power-item" onclick="showPowerInfo('Espionage', 'The ability to the practice of spying or gathering secret information, typically for political or military purposes. It involves covert operations, intelligence gathering, and surveillance, often with the goal of undermining or gaining an advantage over opponents.')">Espionage</li>
+                <li class="power-item" onclick="showPowerInfo('Expert Archaeologist', 'The ability to decipher ancient scripts, identify artifacts, and navigate historical sites with deep knowledge and intuition.')">Expert Archaeologist</li>
+                <li class="power-item" onclick="showPowerInfo('Expert Detective Skills', 'The ability to analyze evidence, read situations, and solve mysteries with unmatched investigative prowess.')">Expert Detective Skills</li>
+                <li class="power-item" onclick="showPowerInfo('Expert Strategist', 'An individual’s exceptional ability to devise, plan, and execute complex strategies, often in high-pressure situations.')">Expert Strategist</li>
+                <li class="power-item" onclick="showPowerInfo('Expert Swordsmanship', 'The ability to wield a katana with incredible precision and skill, allowing one to engage in swift, decisive combat and defeat multiple opponents with ease.')">Expert Swordsmanship</li>
+                <li class="power-item" onclick="showPowerInfo('Expert Tactician', 'The ability to make quick, decisive decisions and implement short-term plans to achieve immediate objectives, particularly in combat or high-stakes scenarios.')">Expert Tactician</li>
+
+                <li class="power-item" onclick="showPowerInfo('Force Sense', 'The ability to sense the presence and emotions of others, as well as foresee potential events using the Force.')">Force Sense</li>
+                <li class="power-item" onclick="showPowerInfo('Fourth-Wall Awareness', 'The ability to perceive and interact with the audience and the fictional nature of one’s world, often using it to one’s advantage.')">Fourth-Wall Awareness</li>
+                <li class="power-item" onclick="showPowerInfo('Genius-Level Intellect', 'The ability to being extremely gifted or highly intelligent, but within the limits of human capability. An IQ well above average (typically above 140) and excels in complex reasoning, creative problem-solving, and specialized knowledge.')">Genius-Level Intellect</li>
+                <li class="power-item" onclick="showPowerInfo('Heightened Mental Focus', 'The ability to maintain focus, make rapid strategic decisions, and display exceptional leadership even under extreme pressure.')">Superior Cognitive Conditioning</li>
+                <li class="power-item" onclick="showPowerInfo('Hypnosis', 'The ability to hypnotize and manipulate others’ minds, making them follow one’s commands or enter a trance-like state.')">Hypnosis</li>
+
+                <li class="power-item" onclick="showPowerInfo('Illusion Creation', 'The ability to create realistic illusions.')">Illusion Creation</li>
+                <li class="power-item" onclick="showPowerInfo('Illusion Manipulation', 'The ability to create highly convincing visual, auditory, or sensory illusions to mislead and confuse others.')">Illusion Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Immunity to Spider-Sense', 'The ability to bypass Spider-Man’s spider-sense, making it difficult for Spider-Man to detect Venom’s attacks.')">Immunity to Spider-Sense</li>
+                <li class="power-item" onclick="showPowerInfo('Infinite Mass Punch', 'The ability to move at super speed while delivering an immensely powerful punch that strikes with the force of a moving object with infinite mass, devastating enemies.')">Infinite Mass Punch</li>
+                <li class="power-item" onclick="showPowerInfo('Insanity (Unpredictable Behavior)', 'The ability to act in a completely erratic and unpredictable manner, making her actions difficult to anticipate and adding chaos to any situation.')">Insanity (Unpredictable Behavior)</li>
+                <li class="power-item" onclick="showPowerInfo('Insanity Inducement', 'The ability to cause mental instability or madness in others, often through exposure to one’s unpredictable behavior or devices.')">Insanity Inducement</li>
+                <li class="power-item" onclick="showPowerInfo('Intimidation', 'The ability to instill fear and submission in others, often used to control followers and intimidate enemies.')">Intimidation</li>
+                <li class="power-item" onclick="showPowerInfo('Kinetic Energy Manipulation', 'The ability to control and manipulate kinetic energy, allowing one to create blasts of energy or manipulate objects in motion.')">Kinetic Energy Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Leadership', 'The ability to lead and inspire others, particularly in high-stakes situations.')">Leadership</li>
+                <li class="power-item" onclick="showPowerInfo('Legilimency', 'The ability to read and manipulate minds, extracting memories, thoughts, and emotions from others.')">Legilimency</li>
+                <li class="power-item" onclick="showPowerInfo('Limited Communication', 'The ability to communicate with others, such as Groot, though limited to repeating the phrase &#34I am Groot,&#34 which can convey a range of emotions and meanings through tone and context.')">Limited Communication</li>
+
+                <li class="power-item" onclick="showPowerInfo('Manipulation', 'The ability to control and influence others’ thoughts and actions by exploiting their emotions, fears, or desires.')">Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Master of Disguises', 'The ability to alter one’s appearance and behavior convincingly to blend in and deceive others.')">Master of Disguises</li>
+                <li class="power-item" onclick="showPowerInfo('Master Strategist', 'The ability to orchestrate intricate criminal schemes, anticipating and manipulating the actions of others to achieve his goals.')">Master Strategist</li>
+                <li class="power-item" onclick="showPowerInfo('Memory Manipulation', 'The ability to alter or erase memories.')">Memory Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Mind Control', 'The ability to influence and control other minds.')">Mind Control</li>
+                <li class="power-item" onclick="showPowerInfo('Neural Manipulation', 'The ability to control or manipulate the nervous system of others.')">Neural Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Occlumency', 'The ability to protect one’s mind from external magical influences, such as Legilimency, and prevent others from reading one’s thoughts or emotions.')">Occlumency</li>
+                <li class="power-item" onclick="showPowerInfo('Peak Human Intelligence', 'The ability to possess exceptional problem-solving skills, strategy, and tactical knowledge, often making highly effective decisions under pressure.')">Peak Human Intelligence</li>
+                <li class="power-item" onclick="showPowerInfo('Persuasion', 'The ability to convince others to follow his suggestions or ideas through charm, logic, or manipulation.')">Persuasion</li>
+                <li class="power-item" onclick="showPowerInfo('Political Strategy', 'The ability to devise complex plans and schemes to suppress dissent and maintain control over an area.')">Political Strategy</li>
+                <li class="power-item" onclick="showPowerInfo('Possession', 'The ability to override another’s consciousness and take over their body.')">Possession</li>
+                <li class="power-item" onclick="showPowerInfo('Precognition', 'The ability to see future events.')">Precognition</li>
+                <li class="power-item" onclick="showPowerInfo('Programming Manipulation', 'The ability to manipulate and alter the rules (of the Matrix), giving one control over its virtual environment and systems.')">Programming Manipulation</li>
+
+                <li class="power-item" onclick="showPowerInfo('Psychological Manipulation', 'The ability to instill fear, confusion, or other emotions in others through one’s intimidating persona or psychological tactics.')">Psychological Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Psychological Warfare', 'The ability to use fear, propaganda, and intimidation to manipulate the thoughts and morale of individuals or entire populations, ensuring dominance and discouraging rebellion.')">Psychological Warfare</li>
+                <li class="power-item" onclick="showPowerInfo('Psychometry', 'The ability to read the history or information of an object by touching it.')">Psychometry</li>
+
+                <li class="power-item" onclick="showPowerInfo('Rapid Mental Calculation', 'The ability to perform complex mathematical and logical computations instantly.')">Rapid Mental Calculation</li> 
+                <li class="power-item" onclick="showPowerInfo('Resistance to Mind Control', 'The ability to withstand attempts to influence thoughts, emotions, or actions through mental domination.')">Resistance to Mind Control</li>              
+                <li class="power-item" onclick="showPowerInfo('Resistance to Telepathy', 'The ability to shield one’s mind from psychic intrusions or manipulations, often with the help of a helmet.')">Resistance to Telepathy</li>
+                <li class="power-item" onclick="showPowerInfo('Seduction Pheromones', 'The ability to release pheromones that can influence and seduce others, bending them to one’s will.')">Seduction Pheromones</li>
+                <li class="power-item" onclick="showPowerInfo('Speed Force Aura', 'The ability to generate an aura of energy that protects the Flash and others around him from the destructive forces of extreme speed, keeping them from being harmed by friction or impact.')">Speed Force Aura</li>
+                <li class="power-item" onclick="showPowerInfo('Spider-Sense', 'The ability to detect and react to immediate dangers through a heightened sixth sense, often manifesting as a tingling sensation.')">Spider-Sense</li>
+                <li class="power-item" onclick="showPowerInfo('Strategic Genius', 'The ability to plan and execute intricate schemes, often staying several steps ahead of one’s opponents.')">Strategic Genius</li>
+                
+                <li class="power-item" onclick="showPowerInfo('Superhuman Intelligence', 'The ability to possess extremely high intelligence, far beyond normal human capacity. A level of intelligence that is so advanced it surpasses typical human understanding, allowing the individual to understand and process information at speeds and depths that would be impossible for an average person. ')">Superhuman Intelligence</li>
+                <li class="power-item" onclick="showPowerInfo('Supernatural Perception', 'The ability to sense and identify supernatural presences, such as ghosts, demons, or magical energy, in the surrounding environment.')">Supernatural Perception</li>
+                <li class="power-item" onclick="showPowerInfo('Telekinesis', 'The ability to move objects with the mind.')">Telekinesis</li>
+                <li class="power-item" onclick="showPowerInfo('Telepathy', 'The ability to read, influence, and manipulate the minds of others.')">Telepathy</li> 
+                <li class="power-item" onclick="showPowerInfo('Thuggee Cult Rituals', 'The ability to perform powerful, mind-altering rituals through religious and mystical practices, including brainwashing and control.')">Thuggee Cult Rituals</li>
+                <li class="power-item" onclick="showPowerInfo('Willpower Resistance', 'The ability to resist mind control, illusions, and psychological manipulation through sheer determination and mental discipline.')">Willpower Resistance</li>
+
+            </ul>
+        </div>
+
+        <!-- Energy-Based Powers -->
+        <div class="category" id="EnergyPowers">
+            <h3 class="category-title">Energy-Based Powers</h3>
+            <ul class="power-list">
+                <li class="power-item" onclick="showPowerInfo('Alchemy', 'The ability to transmute materials, create potions, or manipulate elements for practical and magical purposes.')">Alchemy</li>
+                <li class="power-item" onclick="showPowerInfo('Boomerang Weaponry', 'The ability to use a variety of specialized boomerangs that serve as weapons, including explosive, electric, or razor-sharp models, for both long-range and close-quarter combat.')">Boomerang Weaponry</li>
+                <li class="power-item" onclick="showPowerInfo('Celestial Powers', 'The ability to tap into the power of one’s Celestial heritage, granting one immense energy manipulation and control, (which is first fully demonstrated when interacting with the Orb (Power Stone))')">Celestial Powers</li>
+                <li class="power-item" onclick="showPowerInfo('Cryokinesis ', 'The ability to project blasts of intense cold capable of freezing objects, creating ice constructs, or significantly reducing the temperature of the surrounding environment.')">Cryokinesis </li>
+                <li class="power-item" onclick="showPowerInfo('Dark Magic', 'The ability to perform advanced and highly dangerous spells, curses, and hexes.')">Dark Magic</li>
+                <li class="power-item" onclick="showPowerInfo('Dark Socery', 'The ability to perform advanced and highly dangerous spells, curses, and hexes.')">Dark Socery</li>
+                <li class="power-item" onclick="showPowerInfo('Darkness Manipulation', 'The ability to control and manipulate darkness.')">Darkness Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Electrical Energy Generation', 'The ability to create and control electrical currents derived from magnetic fields.')">Electrical Energy Generation</li>
+                <li class="power-item" onclick="showPowerInfo('Electromagnetic Manipulation', 'The power to control electromagnetic fields and energies.')">Electromagnetic Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Energy Absorption', 'The ability to absorb various forms of energy.')">Energy Absorption</li>
+                <li class="power-item" onclick="showPowerInfo('Energy Blast', 'A powerful burst of energy that can cause damage.')">Energy Blast</li>
+                <li class="power-item" onclick="showPowerInfo('Energy Constructs', 'The ability to create solid objects made from energy.')">Energy Constructs</li>
+                <li class="power-item" onclick="showPowerInfo('Energy Deflection', 'The ability to absorb, deflect, or redirect energy-based attacks, including blaster fire.')">Energy Deflection</li>
+                <li class="power-item" onclick="showPowerInfo('Energy Manipulation', 'The ability to generate, absorb, and control energy  to destroy or manipulate one’s surroundings, capable of causing massive destruction.')">Energy Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Energy Projection', 'The ability to generate and discharge powerful energy blasts as weapons.')">Energy Projection</li>
+
+                <li class="power-item" onclick="showPowerInfo('Fireball Projection', 'The ability to generate and launch fiery projectiles to attack enemies from a distance.')">Fireball Projection</li>
+                <li class="power-item" onclick="showPowerInfo('Flight Manipulation (Magnetic)', 'The ability to propel himself through the air by manipulating magnetic fields around his body.')">Flight Manipulation (Magnetic)</li>
+
+                <li class="power-item" onclick="showPowerInfo('Force Choke', 'The ability to strangle or incapacitate opponents by using the Force to apply pressure to their throat.')">Force Choke</li>
+                <li class="power-item" onclick="showPowerInfo('Force Field Generation', 'The ability to create powerful energy barriers for defense or containment.')">Force Field Generation</li>
+                <li class="power-item" onclick="showPowerInfo('Force Manipulation', 'The ability to manipulate the Force, allowing one to move objects, control minds, and sense others’ emotions.')">Force Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Glider Flight', 'The ability to fly using a specially designed glider, which uses advanced technology and thrust propulsion.')">Glider Flight</li>
+                <li class="power-item" onclick="showPowerInfo('Healing Magic', 'The ability to use magic to repair injuries, cure ailments, or restore vitality to oneself or others.')">Healing Magic</li>
+                <li class="power-item" onclick="showPowerInfo('Heart Extraction', 'The ability to rip the hearts out of living beings in a ceremonial manner, using dark magic to control the victims’ souls.')">Heart Extraction</li>
+                <li class="power-item" onclick="showPowerInfo('Heat Vision', 'The ability to emit intense beams of heat from the eyes, capable of incinerating or melting objects with precision.')">Heat Vision</li>
+                <li class="power-item" onclick="showPowerInfo('Invincibility', 'The ability to be completely immune to harm or damage, often rendering the user impervious to physical, mental, or even elemental attacks.')">Invincibility</li>
+
+                <li class="power-item" onclick="showPowerInfo('Laser Weaponry (Cybernetic)', 'The ability to use advanced laser weapons, often integrated into one’s clothing or devices, to attack enemies or create destruction.')">Laser Weaponry (Cybernetic)</li>
+                <li class="power-item" onclick="showPowerInfo('Light Manipulation', 'The ability to control and manipulate light.')">Light Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Magic', 'The ability to manipulate mystical energies to achieve a wide variety of effects, including spellcasting, enchantments, and supernatural feats beyond the laws of physics.')">Magic</li>
+                <li class="power-item" onclick="showPowerInfo('Magic Manipulation', 'The ability to harness and manipulate magical energy, often used to amplify other abilities or cast powerful spells, derived from an ancient magical source.')">Magic Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Magnetokinesis ', 'The ability to manipulate magnetic fields to control and move metallic objects, generate force fields, and reshape the environment.')">Magnetokinesis </li>
+                <li class="power-item" onclick="showPowerInfo('Omega Beams', 'The ability to fire devastating energy beams from his eyes that can track targets, disintegrate matter, or teleport individuals across dimensions.')">Omega Beams</li>
+                <li class="power-item" onclick="showPowerInfo('Plasma Generation', 'The ability to generate and control plasma (superheated ionized gas).')">Plasma Generation</li>
+                <li class="power-item" onclick="showPowerInfo('Protective Spellcasting', 'The ability to cast magical barriers or wards that protect oneself or others from harm, supernatural forces, or physical attacks.')">Protective Spellcasting</li>
+                <li class="power-item" onclick="showPowerInfo('Protego', 'The ability to cast a spell that creates a magical barrier, deflecting spells and physical attacks, allowing one to protect themself and others from harm.')">Protego</li>
+                <li class="power-item" onclick="showPowerInfo('Psionic Energy Manipulation', 'The ability to generate release concentrated mental energy in physical forms, capable of causing destruction to objects or incapacitating enemies.')">Psionic Energy Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Radiation Manipulation', 'The ability to control and manipulate various forms of radiation.')">Radiation Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Speed Force Connection', 'The ability to tap into the Speed Force, a mystical energy field that grants the Flash his powers, enhancing his speed, reflexes, and providing other temporal abilities.')">Speed Force Connection</li>
+                <li class="power-item" onclick="showPowerInfo('Spell Creation', 'The ability to invent new magical spells.')">Spell Creation</li>
+                <li class="power-item" onclick="showPowerInfo('Socery', 'The ability to wield magical energy for various effects, including casting spells, creating energy blasts, summoning objects, and enhancing physical or mental attributes.')">Socery</li>
+                <li class="power-item" onclick="showPowerInfo('Solar Energy Absorption', 'The ability to harness energy from the sun, serving as a source of power for various abilities.')">Solar Energy Absorption</li>
+                <li class="power-item" onclick="showPowerInfo('Wizardry', 'The ability to channel and wield magical energy to perform a wide range of feats, including spellcasting, enchantments, and rituals, by mastering the principles of magic.')">Wizardry</li>
+                <li class="power-item" onclick="showPowerInfo('X-Ray Vision', 'The ability to see through solid objects, excluding certain materials like lead, providing enhanced perception.')">X-Ray Vision</li>
+
+            </ul>
+        </div>
+
+        <!-- Elemental Powers -->
+        <div class="category" id="ElementalPowers">
+            <h3 class="category-title">Elemental Powers</h3>
+            <ul class="power-list">
+                <li class="power-item" onclick="showPowerInfo('Air Manipulation', 'The power to control and manipulate air and wind currents.')">Air Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Earth Manipulation', 'The ability to control and manipulate earth, soil, and rock.')">Earth Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Fire Breath', 'The ability to exhale streams of fire, capable of scorching opponents and destroying obstacles.')">Fire Breath</li>
+                <li class="power-item" onclick="showPowerInfo('Fire Manipulation', 'The ability to control, create, and extinguish fire.')">Fire Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Fog Manipulation', 'The ability to create or control mist and fog.')">Fog Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Freeze Breath', 'The ability to exhale a super-cooled breath capable of freezing objects or extinguishing flames.')">Freeze Breath</li>
+                <li class="power-item" onclick="showPowerInfo('Geokinesis (Metal-Specific)', 'The ability to manipulate ores and metallic compounds within the Earth’s crust.')">Geokinesis (Metal-Specific)</li>
+                <li class="power-item" onclick="showPowerInfo('Hydrokinesis', 'The ability to manipulate water, controlling its shape, movement, and density, as well as using it as a weapon or creating barriers.')">Hydrokinesis</li>
+                <li class="power-item" onclick="showPowerInfo('Ice Manipulation', 'The power to control, create, and manipulate ice.')">Ice Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Lava Immunity', 'The ability to withstand and traverse molten lava without harm.')">Lava Immunity</li>
+                <li class="power-item" onclick="showPowerInfo('Lava Manipulation', 'The power to control and create molten rock (lava).')">Lava Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Lightning Manipulation', 'The ability to generate, control, and manipulate lightning.')">Lightning Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Magnetism', 'The ability to control and manipulate magnetic fields and metallic objects.')">Magnetism</li>
+                <li class="power-item" onclick="showPowerInfo('Plant Manipulation', 'The ability to control plants and plant life.')">Plant Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Pyrokinesis', 'The ability to generate, control, and manipulate fire at will, using it for offense, defense, and environmental control.')">Pyrokinesis</li>
+                <li class="power-item" onclick="showPowerInfo('Sand Manipulation', 'The ability to control sand, whether in a desert or other environments.')">Sand Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Summoning Creatures', 'The ability to summon and control dark creatures, such as orcs, trolls, and wargs, to serve in battle and to spread one’s dominion.')">Summoning Creatures</li>
+                <li class="power-item" onclick="showPowerInfo('Temperature Manipulation', 'The ability to control and lower the ambient temperature around a target or area, causing frost, ice formation, and reduced mobility for opponents.')">Temperature Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Terraforming', 'The ability to manipulate the Earth’s magnetic field to reshape landscapes or alter environmental structures.')">Terraforming</li>
+                <li class="power-item" onclick="showPowerInfo('Water Manipulation', 'The power to control and manipulate water in all its forms.')">Water Manipulation</li>
+
+    
+            </ul>
+        </div>
+
+        <!-- Time-Related Powers -->
+        <div class="category" id="TimePowers">
+            <h3 class="category-title">Time-Related Powers</h3>
+            <ul class="power-list">
+                 <li class="power-item" onclick="showPowerInfo('Aging Control', 'The ability to control and manipulate aging, either one’s own or others.')">Aging Control</li>
+                 <li class="power-item" onclick="showPowerInfo('Chronokinesis', 'The ability to manipulate and alter the flow of time itself.')">Chronokinesis</li>
+                <li class="power-item" onclick="showPowerInfo('Chronoportation', 'The ability to move through time as well as space.')">Chronoportation</li>
+                <li class="power-item" onclick="showPowerInfo('Immortality', 'The inability to age or die of natural causes, making one effectively eternal.')">Immortality</li>
+                <li class="power-item" onclick="showPowerInfo('Immortality (via Horcruxes)', 'The ability to tether his soul to objects, preventing permanent death unless all Horcruxes are destroyed.')">Immortality (via Horcruxes)</li>
+                <li class="power-item" onclick="showPowerInfo('Immortality (via the One Ring)', 'The ability to persist and regenerate as long as the One Ring exists, even if one’s physical form i s destroyed, tethering his soul to the Ring.')">Immortality (via the One Ring)</li>
+
+                <li class="power-item" onclick="showPowerInfo('Longevity', 'The ability to extend her lifespan significantly through her symbiotic relationship with nature.')">Longevity</li>
+                <li class="power-item" onclick="showPowerInfo('Temporal Duplication', 'The ability to create duplicates of oneself from different points in time.')">Temporal Duplication</li>
+                <li class="power-item" onclick="showPowerInfo('Temporal Perception', 'The ability to perceive the flow of time more quickly or slowly than normal.')">Temporal Perception</li>
+                <li class="power-item" onclick="showPowerInfo('Time Travel', 'The ability to travel through different points in time.')">Time Travel</li>
+                <li class="power-item" onclick="showPowerInfo('Time Echo', 'The ability to experience or interact with past or future versions of yourself.')">Time Echo</li>
+                <li class="power-item" onclick="showPowerInfo('Time Manipulation', 'The ability to manipulate time, including stopping, slowing, or traveling through it.')">Time Manipulation</li>
+               
+                
+            </ul>
+        </div>
+
+        <!-- Dimensional and Reality Powers -->
+        <div class="category" id="DimensionalPowers">
+            <h3 class="category-title">Dimensional and Reality Powers</h3>
+            <ul class="power-list">
+
+                <li class="power-item" onclick="showPowerInfo('Apparition', 'The ability to instantly transport oneself to another location, bypassing physical travel.')">Apparition</li>
+                <li class="power-item" onclick="showPowerInfo('The Anti-Life Equation', 'The ability to control and enslave free will across the universe when wielding the Anti-Life Equation')">The Anti-Life Equation</li>
+                <li class="power-item" onclick="showPowerInfo('Astral Projection', 'The ability to interact with alternate dimensions by separating one’s consciousness from one’s physical body and navigating the astral realm, explore spiritual realms or communicate with ethereal beings.')">Astral Projection</li>
+                <li class="power-item" onclick="showPowerInfo('Demonic Summoning', 'The ability to summon demonic entities from other dimensions to assist in combat, provide information, or execute specific tasks.')">Demonic Summoning</li>
+                <li class="power-item" onclick="showPowerInfo('Digital Body Hopping', 'The ability to transfer one’s consciousness into any connected individual or program (within the Matrix), effectively taking over another’s body.')">Digital Body Hopping</li>
+                <li class="power-item" onclick="showPowerInfo('Dimensional Travel', 'The ability to travel between different dimensions or parallel universes.')">Dimensional Travel</li>
+                <li class="power-item" onclick="showPowerInfo('Existential Erasure', 'The ability to completely erase something from existence, including concepts, people, or objects.')">Existential Erasure</li>
+                <li class="power-item" onclick="showPowerInfo('Force Projection', 'The ability to create a tangible or illusionary presence at a remote location through sheer mental focus.')">Force Projection</li>
+
+                <li class="power-item" onclick="showPowerInfo('Genetic Manipulation and Evolutionary Powers', 'The ability to to manipulate one’s genetic structure, with the potential for reality-bending implications when pushed to extremes.')">Genetic Manipulation and Evolutionary Powers</li>
+                <li class="power-item" onclick="showPowerInfo('Holographic Projection', 'The ability to create and manipulate holographic images for tactical planning, distraction, or communication purposes.')">Holographic Projection</li>
+                <li class="power-item" onclick="showPowerInfo('Illusion Casting', 'The ability to create convincing illusions to deceive the senses.')">Illusion Casting</li>
+                <li class="power-item" onclick="showPowerInfo('Interdimensional Travel', 'The ability to move between planes of existence or dimensions, either physically or spiritually, to access realms beyond Earth.')">Interdimensional Travel</li>
+                <li class="power-item" onclick="showPowerInfo('Lasso of Truth Manipulation', 'The ability to compel honesty and reveal truths by binding others with a magical lasso.')">Lasso of Truth Manipulation</li>
+
+                <li class="power-item" onclick="showPowerInfo('Matter  Manipulation', 'The ability to alter the structure of matter and reshape reality at will, and even create lifeforms.')">Matter  Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Portal Creation', 'The power to create portals that connect two different locations.')">Portal Creation</li>
+                <li class="power-item" onclick="showPowerInfo('Reality Manipulation', 'The ability to manipulate reality and influence the world around them, bending time and space to one’s will.')">Reality Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Reality Manipulation (through the One Ring)', 'The ability to manipulate reality and influence the world around them through the power of the One Ring, bending time and space to one’s will.')">Reality Manipulation (through the One Ring)</li>
+                <li class="power-item" onclick="showPowerInfo('Reality Warping', 'The ability to turn invisible when wearing a magical artifact, avoiding detection or pursuit.')">Reality Warping</li>
+                <li class="power-item" onclick="showPowerInfo('Ring-Borne Invisibility', 'The ability to alter or reshape reality itself.')">Ring-Borne Invisibility</li>
+                <li class="power-item" onclick="showPowerInfo('Self-Replication', 'The ability to copy oneself endlessly by overwriting the code of other beings (within the Matrix), creating an army of identical versions of oneself.')">Self-Replication</li>
+                <li class="power-item" onclick="showPowerInfo('Shrink Ray Technology', 'The ability to miniaturize entire cities or objects, typically storing them in bottles for preservation and study.')">Shrink Ray Technology</li>
+                <li class="power-item" onclick="showPowerInfo('Size Shifting', 'The power to alter one’s size at will, growing larger or smaller.')">Size Shifting</li>
+                <li class="power-item" onclick="showPowerInfo('System Integration', 'The ability to interface directly with the virtual environment, influencing and controlling its elements at will.')">System Integration</li>
+
+                <li class="power-item" onclick="showPowerInfo('Teleportation', 'The ability to instantly transport oneself to a different locations across the universe, sometimes using teleportation devices.')">Teleportation</li>
+                <li class="power-item" onclick="showPowerInfo('Transfiguration ', 'The ability to change objects or creatures into other forms through magic.')">Transfiguration </li> 
+
+            </ul>
+        </div>
+
+        <!-- Animal and Nature Powers -->
+        <div class="category" id="AnimalPowers">
+            <h3 class="category-title">Animal and Nature Powers</h3>
+            <ul class="power-list">
+
+                <li class="power-item" onclick="showPowerInfo('Amphibious Abilities', 'The ability to breathe underwater and swim with great speed, enabling one to thrive in aquatic environments.')">Amphibious Abilities</li>
+                <li class="power-item" onclick="showPowerInfo('Animal Communication', 'The ability to communicate with and understand animals.')">Animal Communication</li>
+                <li class="power-item" onclick="showPowerInfo('Aquatic Telepathy', 'The ability to communicate and command marine life through telepathic means, allowing Aquaman to control sea creatures, even the most dangerous ones, and understand their intentions.')">Aquatic Telepathy</li>
+                <li class="power-item" onclick="showPowerInfo('Beast Transformation', 'The ability to transform into a powerful animal or beast form.')">Beast Transformation</li>
+                <li class="power-item" onclick="showPowerInfo('Elemental Nature Control', 'The ability to control and manipulate elements of nature like plants and animals.')">Elemental Nature Control</li>
+                <li class="power-item" onclick="showPowerInfo('Enhanced Senses', 'The ability to perceive the world with heightened senses, including superhuman hearing, sight, smell, and tracking capabilities.')">Enhanced Senses</li>
+                <li class="power-item" onclick="showPowerInfo('Environmental Adaptation', 'The ability to survive and operate in hostile environments, including deep space or underwater, through specialized suit modifications.')">Environmental Adaptation</li>
+                <li class="power-item" onclick="showPowerInfo('Environmental Awareness', 'The ability to sense and communicate with plants and ecosystems, giving one an unparalleled connection to nature.')">Environmental Awareness</li>
+                <li class="power-item" onclick="showPowerInfo('Feline-Like Senses', 'The ability to exhibit heightened sensory awareness, such as improved night vision and acute hearing, allowing for better detection of surroundings.')">Feline-Like Senses</li>
+                <li class="power-item" onclick="showPowerInfo('Hunting Instincts', 'The ability to track and hunt prey with exceptional skill, utilizing instincts similar to a predator in the wild.')">Hunting Instincts</li>
+                <li class="power-item" onclick="showPowerInfo('Nature Communication', 'The ability to speak with and understand nature itself, including trees, rivers, and mountains.')">Nature Communication</li>
+                <li class="power-item" onclick="showPowerInfo('Parseltongue', 'The ability to communicate with serpents.')">Parseltongue</li>
+                <li class="power-item" onclick="showPowerInfo('Plant Manipulation', 'The ability to control and animate plant life, allowing one to grow, shape, and use vegetation as weapons or tools.')">Plant Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Sentient Microbial Manipulation', 'The ability to control microscopic organisms.')">Sentient Microbial Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Toxin Creation', 'The ability to produce potent pheromones, toxins, and mind-controlling spores to manipulate or incapacitate others.')">Toxin Creation</li>
+                <li class="power-item" onclick="showPowerInfo('Venom or Toxicity', 'The ability to produce venom or toxins that can harm others.')">Venom or Toxicity</li>
+                <li class="power-item" onclick="showPowerInfo('Weather Manipulation', 'The ability to control and manipulate the weather and natural forces.')">Weather Manipulation</li>
+                
+                
+
+            </ul>
+        </div>
+
+        <!-- Miscellaneous Powers -->
+        <div class="category" id="MiscellaneousPowers">
+            <h3 class="category-title">Miscellaneous Powers</h3>
+            <ul class="power-list">
+                <li class="power-item" onclick="showPowerInfo('Advanced Technology Use', 'The ability to design, create, and operate highly sophisticated technology, including weapons, gadgets, and machines.')">Advanced Technology Use</li>
+                <li class="power-item" onclick="showPowerInfo('Camouflage', 'The ability to blend into surroundings or alter the appearance of the symbiote, mimicking clothing, objects, or the environment for stealth and disguise purposes.')">Camouflage</li>
+                <li class="power-item" onclick="showPowerInfo('Chaos Inducement', 'The ability to sow disorder and unpredictability, turning even small situations into massive, uncontrollable events.')">Chaos Inducement</li>
+                
+                <li class="power-item" onclick="showPowerInfo('Cosmic Awareness', 'The ability to perceive and comprehend cosmic events and threats beyond normal perception.')">Cosmic Awareness</li>
+                <li class="power-item" onclick="showPowerInfo('Criminal Mastermind', 'The ability to lead and operate an extensive criminal network, managing resources, people, and operations with precision.')">Criminal Mastermind</li>
+                <li class="power-item" onclick="showPowerInfo('Cult Leadership', 'The ability to lead and command, influencing and directing the actions of its members for one’s own purposes.')">Cosmic Awareness</li>
+                <li class="power-item" onclick="showPowerInfo('Disease Immunity', 'The ability to resist all known diseases, infections, and illnesses due to one’s healing factor constantly repairing one’s cells and eliminating pathogens before they can cause harm.')">Disease Immunity</li>
+                <li class="power-item" onclick="showPowerInfo('Divine Empowerment', 'The ability to channel powers granted by gods, including enhanced senses, resistance to magic, and increased endurance.')">Divine Empowerment</li>
+
+                <li class="power-item" onclick="showPowerInfo('Dream Manipulation', 'The ability to enter, control, and manipulate dreams.')">Dream Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('Duplication', 'The ability to create copies or duplicates of oneself or other objects.')">Duplication</li>
+
+                <li class="power-item" onclick="showPowerInfo('Enhanced Senses (Technology)', 'The ability to perceive events and phenomena across great distances through advanced sensory technologies.')">Enhanced Senses (Technology)</li>
+                <li class="power-item" onclick="showPowerInfo('Exorcism Expertise', 'The ability to banish or expel supernatural entities, such as demons or ghosts, from possessed individuals or locations.')">Exorcism Expertise</li>
+                <li class="power-item" onclick="showPowerInfo('Expert Escape Artist', 'The ability to quickly and efficiently free oneself from restraints, traps, or other confinements through skill, knowledge, and flexibility.')">Expert Escape Artist</li>
+                
+                <li class="power-item" onclick="showPowerInfo('Gravity Manipulation', 'The ability to control and alter gravitational forces.')">Gravity Manipulation</li>
+                <li class="power-item" onclick="showPowerInfo('High-Tech Armor', 'The ability to utilize advanced armored suits equipped with cutting-edge technology for combat, flight, and environmental protection.')">High-Tech Armor</li>
+                <li class="power-item" onclick="showPowerInfo('Improvised Weaponry', 'The ability to use everyday objects as effective weapons in combat situations.')">Improvised Weaponry</li>
+                <li class="power-item" onclick="showPowerInfo('Invisibility', 'The ability to render oneself unseen to the naked eye.')">Invisibility</li>
+                <li class="power-item" onclick="showPowerInfo('Mastery of the Force*', 'See Force Sense, Force Manipulation, Telekinesis (via the Force), Force Choke')">Mastery of the Force*</li>
+
+                <li class="power-item" onclick="showPowerInfo('Metallic Sensing', 'The ability to detect the presence, location, and composition of metallic objects or elements in one’s surroundings.')">Metallic Sensing</li>
+                <li class="power-item" onclick="showPowerInfo('Mjolnir Mastery', 'The ability to wield and manipulate Mjolnir, a mystical hammer that grants enhanced combat capabilities, flight, and the ability to summon lightning.')">Mjolnir Mastery</li>
+                <li class="power-item" onclick="showPowerInfo('Pheromone Control', 'The ability to manipulate or control pheromones to influence behavior or emotions in others.')">Pheromone Control</li>
+                <li class="power-item" onclick="showPowerInfo('Poison Expertise', 'The ability to use and create poisons skillfully, using them as a weapon against enemies or rivals.')">Poison Expertise</li>
+                <li class="power-item" onclick="showPowerInfo('Power Mimicry with Amplification', 'The ability to replicate and enhance the powers of other mutants, making them stronger, more versatile, and capable of synergistic combinations.')">Power Mimicry with Amplification</li>
+                <li class="power-item" onclick="showPowerInfo('Resistance to Aging', 'The ability to slow down or even halt the normal aging process, allowing the individual to maintain youthfulness, vitality, and peak physical condition for an extended period of time.')">Resistance to Aging</li>
+                <li class="power-item" onclick="showPowerInfo('Shield Proficiency', 'The ability to wield a vibranium shield with unparalleled skill, using it offensively and defensively in combat situations.')">Shield Proficiency</li>
+                <li class="power-item" onclick="showPowerInfo('Speed Mirages', 'The ability to create illusory afterimages by moving so fast that the human eye perceives duplicates of the Flash in different locations.')">Speed Mirages</li>
+
+                <li class="power-item" onclick="showPowerInfo('Sonic Scream', 'The ability to produce a high-pitched, powerful scream capable of causing damage or destruction.')">Sonic Scream</li>
+                <li class="power-item" onclick="showPowerInfo('Soul Bargaining', 'The ability to negotiate with supernatural beings, often leveraging one’s soul or others’ as a form of currency in exchanges or deals.')">Soul Bargaining</li>
+                <li class="power-item" onclick="showPowerInfo('Souls of the Damned', 'The ability to trap the souls of those slain by a cursed weapon, enabling the wielder to communicate with, summon, or even bind spirits to do their bidding.')">Souls of the Damned</li>
+                <li class="power-item" onclick="showPowerInfo('Strengthened Leadership', 'The ability to command legions of followers with absolute loyalty.')">Strengthened Leadership</li>                
+                <li class="power-item" onclick="showPowerInfo('Survival Skills', 'The ability to survive in hostile environments and under extreme conditions by applying practical knowledge and resourcefulness.')">Survival Skills</li>
+                <li class="power-item" onclick="showPowerInfo('Symbiotic Bonding', 'The ability to bond with a host, granting shared powers, enhancing the host’s abilities, and creating a mutual dependence for survival.')">Symbiotic Bonding</li>
+                <li class="power-item" onclick="showPowerInfo('Technological Mastery', 'The ability to design and use advanced weaponry, robotic systems, and exosuits that provide superhuman capabilities.')">Technological Mastery</li>
+                <li class="power-item" onclick="showPowerInfo('Technomancy', 'The ability to manipulate technology with the mind or other magical means.')">Technomancy</li>
+                <li class="power-item" onclick="showPowerInfo('Technopathy', 'The ability to psionically control and manipulate technology, allowing one to hack systems, reprogram machinery, and command complex devices.')">Technopathy</li>
+                <li class="power-item" onclick="showPowerInfo('Thievery Expertise', 'The ability to flawlessly execute heists and thefts, employing a combination of stealth, dexterity, and advanced planning.')">Thievery Expertise</li>
+                <li class="power-item" onclick="showPowerInfo('Toxin Creation and Resistance', 'The ability to develop deadly chemical compounds, such as Joker Venom, while being immune to many toxins, poisons, and chemicals.')">Toxin Creation and Resistance</li>
+                <li class="power-item" onclick="showPowerInfo('Trident Mastery', 'The ability to wield the Trident of Poseidon, a powerful weapon that grants Aquaman control over the seas and grants him divine strength, capable of slicing through almost any material and serving as a focus for his elemental abilities.')">Trident Mastery</li>
+                <li class="power-item" onclick="showPowerInfo('Universal Translation', 'The ability to understand and communicate in countless languages through technological or mental means.')">Universal Translation</li>
+
+                <li class="power-item" onclick="showPowerInfo('Vibranium Suit', 'The ability to absorb and redistribute kinetic energy using a vibranium-based suit, providing enhanced protection and offensive capabilities in battle.')">Vibranium Suit</li>
+                <li class="power-item" onclick="showPowerInfo('Wealth and Resources', 'The ability to access vast financial and material resources, enabling one to build powerful technologies and influence global events.')">Wealth and Resources</li>
+                <li class="power-item" onclick="showPowerInfo('Web-Shooting', 'The ability to produce and shoot strong, adhesive webs (via web-shooters or biologically), useful for transportation, binding enemies, or creating barriers.')">Web-Shooting</li>
+                <li class="power-item" onclick="showPowerInfo('Weaponized Systems', 'The ability to deploy an array of integrated weapons, such as missiles, lasers, and sonic disruptors, directly from the suit.')">Weaponized Systems</li>
+                <li class="power-item" onclick="showPowerInfo('Web-Shooting', 'The ability to produce and shoot strong, adhesive webs (via web-shooters or biologically), useful for transportation, binding enemies, or creating barriers.')">Web-Shooting</li>
+                <li class="power-item" onclick="showPowerInfo('X-Ray Vision', 'The ability to see through solid objects or materials.')">X-Ray Vision</li>
+
+
+            </ul>
+        </div>
+
+        
+    </section>
+
+        <!-- Modal Popup -->
+        <div id="powerModal" class="modal">
+            <div class="modal-content">
+            <h4 id="powerTitle">Power Name</h4>
+            <p id="powerDescription">Power description will appear here.</p>
+            <button class="close-btn" onclick="closePowerModal()">OK</button>
+            </div>
+        </div>
+
+
+    <a href="#top" class="back-to-top">Back to Top</a>
+
+    <script src="scriptPowers.js"></script>
+
+    <footer>
+        <p>&copy; 2024 Superpowers Central by AC. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>

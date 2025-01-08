@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superpower Generator</title>
+    <link rel="stylesheet" href="stylesNav.css">
+    <link rel="stylesheet" href="stylesBlock1Gen.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Superpower Generator 🦸‍♂️</h1>
+        <p>Click the button to generate a random superpower!</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li class="dropdown">
+                <a href="hero_list.html">🦸 Hero List</a>
+                <!-- Dropdown Menu for Heroes -->
+                    <ul class="dropdown-content">
+                        <li><a href="hero_list.html#marvel-heroes">Marvel Heroes</a></li>
+                        <li><a href="hero_list.html#dc-heroes">DC Heroes</a></li>
+                        <li><a href="hero_list.html#other-superheroes">Other SuperHeroes</a></li>
+                    </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="villain_list.html">🦹 Villain List</a>
+                <!-- Dropdown Menu for Villains -->
+                    <ul class="dropdown-content">
+                        <li><a href="villain_list.html#marvel-villains">Marvel Villains</a></li>
+                        <li><a href="villain_list.html#dc-villains">DC Villains</a></li>
+                        <li><a href="villain_list.html#other-villains">Other Villains</a></li>
+                    </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="antihero_list.html">👤 Antihero List</a>
+                <!-- Dropdown Menu for Antiheroes -->
+                    <ul class="dropdown-content">
+                        <li><a href="antihero_list.html#marvel-antiheroes">Marvel Antiheroes</a></li>
+                        <li><a href="antihero_list.html#guardians-of-galaxy">Guardians of the Galaxy</a></li>
+                        <li><a href="antihero_list.html#shield-members">SHIELD Members</a></li>
+                        <li><a href="antihero_list.html#dc-antiheroes">DC Antiheroes</a></li>
+                        <li><a href="antihero_list.html#suicide-squad">Suicide Squad</a></li>
+                    </ul>
+            </li>
+            <li><a href="powers.html">💥 Superpowers Directory</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <button id="generateButton">Generate Superpower</button>
+            <div id="powerDisplay" class="power-display"></div>
+        </div>
+    </main>
+          
+        <!-- Power Display Section -->
+<div id="powerDisplay" class="power-display">
+    <!-- The generated message will appear here -->
+</div>
+
+    <footer>
+        <p>&copy; 2024 Superpowers Central by AC. All rights reserved.</p>
+    </footer>
+
+    <script src="scriptBlock1Gen.js"></script>
+</body>
+</html>
